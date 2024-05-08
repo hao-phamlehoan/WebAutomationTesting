@@ -85,7 +85,7 @@
       "id": "f60ecb29-9442-4477-b6a4-567113c84a38",
       "comment": "",
       "command": "click",
-      "target": "xpath=//button[contains(.,'Browse repositories...')]",
+      "target": "xpath=//button[contains(.,'Browse repositories')]",
       "targets": [
         ["id=yui_3_18_1_1_1701696852727_403", "id"],
         ["css=#yui_3_18_1_1_1701696852727_403", "css:finder"],
@@ -112,7 +112,7 @@
       "id": "226b8957-22f6-40f8-bfda-cf25abdf0fd7",
       "comment": "",
       "command": "mouseOut",
-      "target": "xpath=//button[contains(.,'Browse repositories...')]",
+      "target": "xpath=//button[contains(.,'Browse repositories')]",
       "targets": [
         ["id=yui_3_18_1_1_1701696852727_403", "id"],
         ["css=#yui_3_18_1_1_1701696852727_403", "css:finder"],
@@ -168,7 +168,7 @@
       "id": "181cdce1-5560-4c7b-9351-67ed9da38fd8",
       "comment": "",
       "command": "click",
-      "target": "id=id_message_tiny_image_altentry",
+      "target": "id=_tiny_image_altentry",
       "targets": [
         ["id=id_message_tiny_image_altentry", "id"],
         ["name=altentry", "name"],
@@ -182,7 +182,7 @@
       "id": "ff882f06-a0b9-48b3-a7b9-e66975bee1a4",
       "comment": "",
       "command": "type",
-      "target": "id=id_message_tiny_image_altentry",
+      "target": "id=_tiny_image_altentry",
       "targets": [
         ["id=id_message_tiny_image_altentry", "id"],
         ["name=altentry", "name"],
@@ -196,7 +196,7 @@
       "id": "7e116bfa-349a-4d5a-902a-8a318775edfd",
       "comment": "",
       "command": "click",
-      "target": "xpath=//button[contains(.,'Save image')]",
+      "target": "xpath=//button[contains(.,'Save')]",
       "targets": [
         ["id=yui_3_18_1_1_1701696852727_899", "id"],
         ["css=#yui_3_18_1_1_1701696852727_899", "css:finder"],
@@ -316,82 +316,6 @@
         ["xpath=//div[3]/div/div/span/button", "xpath:position"]
       ],
       "value": ""
-    }, {
-      "id": "d517f49a-25e1-4647-9bb5-f9f3cdec9123",
-      "comment": "",
-      "command": "click",
-      "target": "xpath=//div/div[2]/div/div/i",
-      "targets": [
-        ["id=yui_3_18_1_1_1701696852727_938", "id"],
-        ["css=#yui_3_18_1_1_1701696852727_938", "css:finder"],
-        ["xpath=//i[@id='yui_3_18_1_1_1701696852727_938']", "xpath:attributes"],
-        ["xpath=//div[@id='yui_3_18_1_1_1701696852727_939']/i", "xpath:idRelative"],
-        ["xpath=//div/div[2]/div/div/i", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "2b71127b-0f58-4b11-b111-6a375a519311",
-      "comment": "",
-      "command": "pause",
-      "target": "6000",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "41f51916-4ad1-49a8-b90b-951b5b61361a",
-      "comment": "",
-      "command": "type",
-      "target": "name=repo_upload_file",
-      "targets": [
-        ["id=yui_3_18_1_1_1701696852727_1498", "id"],
-        ["name=repo_upload_file", "name"],
-        ["css=#yui_3_18_1_1_1701696852727_1498", "css:finder"],
-        ["xpath=//input[@id='yui_3_18_1_1_1701696852727_1498']", "xpath:attributes"],
-        ["xpath=//div[@id='yui_3_18_1_1_1701696852727_1536']/input", "xpath:idRelative"],
-        ["xpath=//form/div/div/div/input", "xpath:position"]
-      ],
-      "value": "D:\\SoftwareTesting\\Data\\dienDanMinAdd.txt"
-    }, {
-      "id": "905b11cf-23c0-4555-a121-0f176a1b20f5",
-      "comment": "",
-      "command": "click",
-      "target": "xpath=//button[contains(.,'Upload this file')]",
-      "targets": [
-        ["id=yui_3_18_1_1_1701696852727_1549", "id"],
-        ["css=#yui_3_18_1_1_1701696852727_1549", "css:finder"],
-        ["xpath=//button[@id='yui_3_18_1_1_1701696852727_1549']", "xpath:attributes"],
-        ["xpath=//div[@id='yui_3_18_1_1_1701696852727_1550']/button", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div[2]/div/div/div/button", "xpath:position"],
-        ["xpath=//button[contains(.,'Upload this file')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "c821aeee-44ce-4192-bc2e-46e849204344",
-      "comment": "",
-      "command": "pause",
-      "target": "10000",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "3f1b5572-e96f-4ee0-bfad-ad59c97c3a35",
-      "comment": "",
-      "command": "click",
-      "target": "id=id_submitbutton",
-      "targets": [
-        ["id=id_submitbutton", "id"],
-        ["name=submitbutton", "name"],
-        ["css=#id_submitbutton", "css:finder"],
-        ["xpath=//input[@id='id_submitbutton']", "xpath:attributes"],
-        ["xpath=//span[@id='yui_3_18_1_1_1701696852727_1766']/input", "xpath:idRelative"],
-        ["xpath=//span/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "c847cab9-b7f8-47e5-9092-e72552007e1c",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,2632)",
-      "targets": [],
-      "value": ""
     }]
   }, {
     "id": "2949a9bd-000f-4651-80bf-479e937876e7",
@@ -496,7 +420,7 @@
       "id": "beb177b3-a29f-4304-9b66-306536496683",
       "comment": "",
       "command": "click",
-      "target": "xpath=//button[contains(.,'Browse repositories...')]",
+      "target": "xpath=//button[contains(.,'Browse repositories')]",
       "targets": [
         ["id=yui_3_18_1_1_1701697438454_419", "id"],
         ["css=#yui_3_18_1_1_1701697438454_419", "css:finder"],
@@ -523,7 +447,7 @@
       "id": "ac3a9d0f-a9da-4596-b053-67e3ee4e5b24",
       "comment": "",
       "command": "mouseOut",
-      "target": "xpath=//button[contains(.,'Browse repositories...')]",
+      "target": "xpath=//button[contains(.,'Browse repositories')]",
       "targets": [
         ["id=yui_3_18_1_1_1701697438454_419", "id"],
         ["css=#yui_3_18_1_1_1701697438454_419", "css:finder"],
@@ -572,7 +496,7 @@
       "id": "3217184f-92d1-4499-bcc8-d2356a698f1f",
       "comment": "",
       "command": "click",
-      "target": "id=id_message_tiny_image_altentry",
+      "target": "id=_tiny_image_altentry",
       "targets": [
         ["id=id_message_tiny_image_altentry", "id"],
         ["name=altentry", "name"],
@@ -586,7 +510,7 @@
       "id": "3010c867-7f4c-4df0-b626-471edb8d3403",
       "comment": "",
       "command": "type",
-      "target": "id=id_message_tiny_image_altentry",
+      "target": "id=_tiny_image_altentry",
       "targets": [
         ["id=id_message_tiny_image_altentry", "id"],
         ["name=altentry", "name"],
@@ -600,7 +524,7 @@
       "id": "575b25a9-65c8-4b47-959f-47dbf4ea689a",
       "comment": "",
       "command": "click",
-      "target": "xpath=//button[contains(.,'Save image')]",
+      "target": "xpath=//button[contains(.,'Save')]",
       "targets": [
         ["id=yui_3_18_1_1_1701697438454_900", "id"],
         ["css=#yui_3_18_1_1_1701697438454_900", "css:finder"],
@@ -804,7 +728,7 @@
       "id": "acaf1b14-02b1-494a-bc4d-f3c3b7c02402",
       "comment": "",
       "command": "click",
-      "target": "xpath=//button[contains(.,'Browse repositories...')]",
+      "target": "xpath=//button[contains(.,'Browse repositories')]",
       "targets": [
         ["id=yui_3_18_1_1_1701698015681_403", "id"],
         ["css=#yui_3_18_1_1_1701698015681_403", "css:finder"],
@@ -831,7 +755,7 @@
       "id": "182b1b30-5625-481a-9257-75acb5d3e4b2",
       "comment": "",
       "command": "mouseOut",
-      "target": "xpath=//button[contains(.,'Browse repositories...')]",
+      "target": "xpath=//button[contains(.,'Browse repositories')]",
       "targets": [
         ["id=yui_3_18_1_1_1701698015681_403", "id"],
         ["css=#yui_3_18_1_1_1701698015681_403", "css:finder"],
@@ -887,7 +811,7 @@
       "id": "233700fa-01fd-4ae7-8bf7-79e488a56ab7",
       "comment": "",
       "command": "click",
-      "target": "id=id_message_tiny_image_altentry",
+      "target": "id=_tiny_image_altentry",
       "targets": [
         ["id=id_message_tiny_image_altentry", "id"],
         ["name=altentry", "name"],
@@ -901,7 +825,7 @@
       "id": "14511fdf-0a05-41ec-a691-f329a867abe5",
       "comment": "",
       "command": "type",
-      "target": "id=id_message_tiny_image_altentry",
+      "target": "id=_tiny_image_altentry",
       "targets": [
         ["id=id_message_tiny_image_altentry", "id"],
         ["name=altentry", "name"],
@@ -915,7 +839,7 @@
       "id": "a9f64003-f5f4-444e-b66d-8bcd4169e829",
       "comment": "",
       "command": "click",
-      "target": "xpath=//button[contains(.,'Save image')]",
+      "target": "xpath=//button[contains(.,'Save')]",
       "targets": [
         ["id=yui_3_18_1_1_1701698015681_901", "id"],
         ["css=#yui_3_18_1_1_1701698015681_901", "css:finder"],
