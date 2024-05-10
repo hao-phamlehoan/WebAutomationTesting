@@ -1,4 +1,4 @@
-# Nguyễn Hữu Lượng - 2013724
+# Phạm Lê Hoàn Hảo - 2013093
 
 ## Cài đặt các packet 
 * Để chạy được chương trình ta cần phải cài các gói trong file requirements.txt. Bằng câu lệnh: 
