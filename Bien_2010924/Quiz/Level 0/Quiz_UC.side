@@ -1,0 +1,656 @@
+{
+  "id": "c1b60ca4-b67a-40bb-8987-28d5fa21f357",
+  "version": "2.0",
+  "name": "Quiz_UC",
+  "url": "https://school.moodledemo.net/mod/quiz/view.php?id=1150",
+  "tests": [{
+    "id": "b81dfebc-e9b8-4df5-a1ee-ab1a7783f0c3",
+    "name": "test1",
+    "commands": [{
+      "id": "91a4d76c-d076-40bb-9ae0-ca68e07d9efd",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/mod/quiz/view.php?id=1150",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4d18dc3-98fa-4171-88e2-9bd5162ecb04",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1680x1025",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a3b6776-20c3-4931-ba13-60ef0822a810",
+      "comment": "",
+      "command": "click",
+      "target": "id=single_button663f8fb4827417",
+      "targets": [
+        ["id=single_button663f8fb4827417", "id"],
+        ["css=#single_button663f8fb4827417", "css:finder"],
+        ["xpath=//button[@id='single_button663f8fb4827417']", "xpath:attributes"],
+        ["xpath=//form[@id='yui_3_18_1_1_1715441588804_221']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Re-attempt quiz')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5144795d-8599-44fa-bb44-d94f299bb51e",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_cancel",
+      "targets": [
+        ["id=id_cancel", "id"],
+        ["name=cancel", "name"],
+        ["css=#id_cancel", "css:finder"],
+        ["xpath=//input[@id='id_cancel']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1715441588804_298']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dbac0f69-0e76-4fc0-b0cb-bbbf6615b81c",
+    "name": "test2",
+    "commands": [{
+      "id": "b8984f5e-9f75-4d8f-9223-e65f0d700c8c",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/mod/quiz/view.php?id=1150",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07876938-80ae-4323-9ba8-e2bf28b2ab45",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1680x1025",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e16b22b7-cdda-4938-b21d-2ecf1538e0aa",
+      "comment": "",
+      "command": "click",
+      "target": "id=single_button663f8feda2e287",
+      "targets": [
+        ["id=single_button663f8feda2e287", "id"],
+        ["css=#single_button663f8feda2e287", "css:finder"],
+        ["xpath=//button[@id='single_button663f8feda2e287']", "xpath:attributes"],
+        ["xpath=//form[@id='yui_3_18_1_1_1715441645935_221']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Re-attempt quiz')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "803fe549-606d-481a-a659-04b133f717ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_submitbutton",
+      "targets": [
+        ["id=id_submitbutton", "id"],
+        ["name=submitbutton", "name"],
+        ["css=#id_submitbutton", "css:finder"],
+        ["xpath=//input[@id='id_submitbutton']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1715441645935_289']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b70fa2d-d6af-4069-a727-07657b3106a2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Finish attempt ...",
+      "targets": [
+        ["linkText=Finish attempt ...", "linkText"],
+        ["css=.endtestlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Finish attempt ...')]", "xpath:link"],
+        ["xpath=//section[@id='mod_quiz_navblock']/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://school.moodledemo.net/mod/quiz/summary.php?attempt=74&cmid=1150')]", "xpath:href"],
+        ["xpath=//section/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Finish attempt ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5a00881-e513-4e7c-a071-b2dff01939c6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df9df372-a0ef-4d5d-888e-5179a4a86de8",
+      "comment": "",
+      "command": "click",
+      "target": "id=single_button663f9007a8e978",
+      "targets": [
+        ["id=single_button663f9007a8e978", "id"],
+        ["css=#single_button663f9007a8e978", "css:finder"],
+        ["xpath=//button[@id='single_button663f9007a8e978']", "xpath:attributes"],
+        ["xpath=//section[@id='region-main']/div[2]/div[3]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Return to attempt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "710c510d-8d79-41f2-94af-501c9f23d792",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f217b027-a30c-4e64-bda8-c0774c07d582",
+    "name": "test3",
+    "commands": [{
+      "id": "3659ff2d-ede5-44a1-9a72-0de24d63a0e6",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/mod/quiz/view.php?id=1150",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19ebc6ec-840f-47eb-a55f-c12403f28daa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1680x1025",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "101cb5e3-ed50-4a6f-894b-af9324b4af93",
+      "comment": "",
+      "command": "click",
+      "target": "id=single_button663f90af9ac1b7",
+      "targets": [
+        ["id=single_button663f90af9ac1b7", "id"],
+        ["css=#single_button663f90af9ac1b7", "css:finder"],
+        ["xpath=//button[@id='single_button663f90af9ac1b7']", "xpath:attributes"],
+        ["xpath=//form[@id='yui_3_18_1_1_1715441839860_221']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Re-attempt quiz')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "606e4d04-f977-4418-85f2-28c5dee54093",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_submitbutton",
+      "targets": [
+        ["id=id_submitbutton", "id"],
+        ["name=submitbutton", "name"],
+        ["css=#id_submitbutton", "css:finder"],
+        ["xpath=//input[@id='id_submitbutton']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1715441839860_289']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5286b538-d38e-44be-b263-4b6ada70ca0b",
+      "comment": "",
+      "command": "click",
+      "target": "id=q112:1_answer0",
+      "targets": [
+        ["id=q112:1_answer0", "id"],
+        ["name=q112:1_answer", "name"],
+        ["css=#q112\\3A 1_answer0", "css:finder"],
+        ["xpath=//input[@id='q112:1_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='question-112-1']/div[2]/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc3aebbe-4e46-4a4c-87d0-018bcd6f7262",
+      "comment": "",
+      "command": "click",
+      "target": "css=#question-112-2 .r0:nth-child(1)",
+      "targets": [
+        ["css=#question-112-2 .r0:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='question-112-2']/div[2]/div/fieldset/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/fieldset/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c649b303-72d3-4203-831a-2998abc714d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=q112:2_answer0",
+      "targets": [
+        ["id=q112:2_answer0", "id"],
+        ["name=q112:2_answer", "name"],
+        ["css=#q112\\3A 2_answer0", "css:finder"],
+        ["xpath=//input[@id='q112:2_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1715441851805_177']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19ada964-77bc-4f96-b004-391564f0016f",
+      "comment": "",
+      "command": "click",
+      "target": "id=q112:3_answer0",
+      "targets": [
+        ["id=q112:3_answer0", "id"],
+        ["name=q112:3_answer", "name"],
+        ["css=#q112\\3A 3_answer0", "css:finder"],
+        ["xpath=//input[@id='q112:3_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='question-112-3']/div[2]/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a3b9cb6-6e62-4828-8369-97afedde7545",
+      "comment": "",
+      "command": "click",
+      "target": "id=q112:4_answer0",
+      "targets": [
+        ["id=q112:4_answer0", "id"],
+        ["name=q112:4_answer", "name"],
+        ["css=#q112\\3A 4_answer0", "css:finder"],
+        ["xpath=//input[@id='q112:4_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='question-112-4']/div[2]/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a301db10-eb79-4f6c-b208-1c3042bef457",
+      "comment": "",
+      "command": "click",
+      "target": "id=q112:5_answer0",
+      "targets": [
+        ["id=q112:5_answer0", "id"],
+        ["name=q112:5_answer", "name"],
+        ["css=#q112\\3A 5_answer0", "css:finder"],
+        ["xpath=//input[@id='q112:5_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='question-112-5']/div[2]/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3eaf8492-38b4-4f23-bc4e-8502667180fc",
+      "comment": "",
+      "command": "click",
+      "target": "id=q112:6_answer0",
+      "targets": [
+        ["id=q112:6_answer0", "id"],
+        ["name=q112:6_answer", "name"],
+        ["css=#q112\\3A 6_answer0", "css:finder"],
+        ["xpath=//input[@id='q112:6_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='question-112-6']/div[2]/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42ca279e-0da3-4389-b1b8-7909ab12ab5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=q112:7_answer0",
+      "targets": [
+        ["id=q112:7_answer0", "id"],
+        ["name=q112:7_answer", "name"],
+        ["css=#q112\\3A 7_answer0", "css:finder"],
+        ["xpath=//input[@id='q112:7_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='question-112-7']/div[2]/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc276a3f-3bc9-4629-8f02-4ac50f965e2f",
+      "comment": "",
+      "command": "click",
+      "target": "id=q112:8_answer0",
+      "targets": [
+        ["id=q112:8_answer0", "id"],
+        ["name=q112:8_answer", "name"],
+        ["css=#q112\\3A 8_answer0", "css:finder"],
+        ["xpath=//input[@id='q112:8_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='question-112-8']/div[2]/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/div/fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2a1b168-47ac-47ee-b423-45762aaf1c73",
+      "comment": "",
+      "command": "click",
+      "target": "id=q112:9_answer0",
+      "targets": [
+        ["id=q112:9_answer0", "id"],
+        ["name=q112:9_answer", "name"],
+        ["css=#q112\\3A 9_answer0", "css:finder"],
+        ["xpath=//input[@id='q112:9_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='question-112-9']/div[2]/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div[2]/div/fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17f91a32-86d0-42e0-a716-ee18125b0226",
+      "comment": "",
+      "command": "click",
+      "target": "id=q112:9_answer1",
+      "targets": [
+        ["id=q112:9_answer1", "id"],
+        ["css=#q112\\3A 9_answer1", "css:finder"],
+        ["xpath=//input[@id='q112:9_answer1']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1715441851805_213']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div[2]/div/fieldset/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97b0d68c-7b13-4d02-acdf-2c6a0199f37d",
+      "comment": "",
+      "command": "click",
+      "target": "id=q112:10_answer0",
+      "targets": [
+        ["id=q112:10_answer0", "id"],
+        ["name=q112:10_answer", "name"],
+        ["css=#q112\\3A 10_answer0", "css:finder"],
+        ["xpath=//input[@id='q112:10_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='question-112-10']/div[2]/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div[2]/div/fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46a9123d-ee90-44bf-ab3d-d744dce51212",
+      "comment": "",
+      "command": "click",
+      "target": "id=mod_quiz-next-nav",
+      "targets": [
+        ["id=mod_quiz-next-nav", "id"],
+        ["name=next", "name"],
+        ["css=#mod_quiz-next-nav", "css:finder"],
+        ["xpath=//input[@id='mod_quiz-next-nav']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1715441851805_175']/div[11]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28c2df05-c5fb-430a-87a1-b3e79d572082",
+      "comment": "",
+      "command": "click",
+      "target": "id=single_button663f90d68769510",
+      "targets": [
+        ["id=single_button663f90d68769510", "id"],
+        ["css=#single_button663f90d68769510", "css:finder"],
+        ["xpath=//button[@id='single_button663f90d68769510']", "xpath:attributes"],
+        ["xpath=//form[@id='frm-finishattempt']/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit all and finish')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21124e38-0c5d-43be-a11b-6b2f08074272",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=single_button663f90d68769510",
+      "targets": [
+        ["id=single_button663f90d68769510", "id"],
+        ["css=#single_button663f90d68769510", "css:finder"],
+        ["xpath=//button[@id='single_button663f90d68769510']", "xpath:attributes"],
+        ["xpath=//form[@id='frm-finishattempt']/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit all and finish')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b938408b-e039-4ad7-ac4c-85150ff3f515",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=single_button663f90d68769510",
+      "targets": [
+        ["id=single_button663f90d68769510", "id"],
+        ["css=#single_button663f90d68769510", "css:finder"],
+        ["xpath=//button[@id='single_button663f90d68769510']", "xpath:attributes"],
+        ["xpath=//form[@id='frm-finishattempt']/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit all and finish')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ee25048-8033-4652-bcf4-7bbe04db4f17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-secondary",
+      "targets": [
+        ["css=.modal-footer > .btn-secondary", "css:finder"],
+        ["xpath=(//button[@type='button'])[20]", "xpath:attributes"],
+        ["xpath=//body[@id='page-mod-quiz-summary']/div[4]/div[2]/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f12cb363-5415-427e-b63e-7c2818cd559e",
+    "name": "test5",
+    "commands": [{
+      "id": "97635359-56d7-4b0c-9e88-156bead03e3a",
+      "comment": "",
+      "command": "open",
+      "target": "https://school.moodledemo.net/mod/quiz/view.php?id=1150",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1550a03d-69b9-46ec-acc9-96ec4290e7d9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1680x1025",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6116fb8c-1abb-41c2-b3e1-4cc130feb039",
+      "comment": "",
+      "command": "click",
+      "target": "id=single_button663f941226b587",
+      "targets": [
+        ["id=single_button663f941226b587", "id"],
+        ["css=#single_button663f941226b587", "css:finder"],
+        ["xpath=//button[@id='single_button663f941226b587']", "xpath:attributes"],
+        ["xpath=//form[@id='yui_3_18_1_1_1715442706450_221']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Re-attempt quiz')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3930f519-7311-44b9-b2e7-37b5392b513f",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_submitbutton",
+      "targets": [
+        ["id=id_submitbutton", "id"],
+        ["name=submitbutton", "name"],
+        ["css=#id_submitbutton", "css:finder"],
+        ["xpath=//input[@id='id_submitbutton']", "xpath:attributes"],
+        ["xpath=//span[@id='yui_3_18_1_1_1715442706450_289']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a67cf53b-083f-4a94-8d59-0a4389b1e9b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=q114:1_answer0",
+      "targets": [
+        ["id=q114:1_answer0", "id"],
+        ["name=q114:1_answer", "name"],
+        ["css=#q114\\3A 1_answer0", "css:finder"],
+        ["xpath=//input[@id='q114:1_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='question-114-1']/div[2]/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be56babf-a4a5-46f0-9e4d-a84db29cd9d9",
+      "comment": "",
+      "command": "click",
+      "target": "id=q114:2_answer0",
+      "targets": [
+        ["id=q114:2_answer0", "id"],
+        ["name=q114:2_answer", "name"],
+        ["css=#q114\\3A 2_answer0", "css:finder"],
+        ["xpath=//input[@id='q114:2_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='question-114-2']/div[2]/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "095f1da5-81f4-491a-8786-8f653b08373b",
+      "comment": "",
+      "command": "click",
+      "target": "id=q114:3_answer0",
+      "targets": [
+        ["id=q114:3_answer0", "id"],
+        ["name=q114:3_answer", "name"],
+        ["css=#q114\\3A 3_answer0", "css:finder"],
+        ["xpath=//input[@id='q114:3_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='question-114-3']/div[2]/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcdb4d87-81f0-4507-9a26-b90e6064affd",
+      "comment": "",
+      "command": "click",
+      "target": "id=q114:4_answer0",
+      "targets": [
+        ["id=q114:4_answer0", "id"],
+        ["name=q114:4_answer", "name"],
+        ["css=#q114\\3A 4_answer0", "css:finder"],
+        ["xpath=//input[@id='q114:4_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='question-114-4']/div[2]/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f98db95-5fe0-4b06-9a26-ce33ad05aaf8",
+      "comment": "",
+      "command": "click",
+      "target": "id=q114:5_answer0",
+      "targets": [
+        ["id=q114:5_answer0", "id"],
+        ["name=q114:5_answer", "name"],
+        ["css=#q114\\3A 5_answer0", "css:finder"],
+        ["xpath=//input[@id='q114:5_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='question-114-5']/div[2]/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7550a76c-262d-4e62-b896-40aaf6affe95",
+      "comment": "",
+      "command": "click",
+      "target": "id=q114:6_answer0",
+      "targets": [
+        ["id=q114:6_answer0", "id"],
+        ["name=q114:6_answer", "name"],
+        ["css=#q114\\3A 6_answer0", "css:finder"],
+        ["xpath=//input[@id='q114:6_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='question-114-6']/div[2]/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c47c9e7-6010-4c3b-9259-e28d638bd03e",
+      "comment": "",
+      "command": "click",
+      "target": "id=q114:7_answer0",
+      "targets": [
+        ["id=q114:7_answer0", "id"],
+        ["name=q114:7_answer", "name"],
+        ["css=#q114\\3A 7_answer0", "css:finder"],
+        ["xpath=//input[@id='q114:7_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='question-114-7']/div[2]/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48cb10fd-cc6b-4ac4-826e-561724a26274",
+      "comment": "",
+      "command": "click",
+      "target": "id=q114:8_answer0",
+      "targets": [
+        ["id=q114:8_answer0", "id"],
+        ["name=q114:8_answer", "name"],
+        ["css=#q114\\3A 8_answer0", "css:finder"],
+        ["xpath=//input[@id='q114:8_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='question-114-8']/div[2]/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/div/fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cab0f268-4787-4488-869c-264c1c0480ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=q114:9_answer0",
+      "targets": [
+        ["id=q114:9_answer0", "id"],
+        ["name=q114:9_answer", "name"],
+        ["css=#q114\\3A 9_answer0", "css:finder"],
+        ["xpath=//input[@id='q114:9_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='question-114-9']/div[2]/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div[2]/div/fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "647dcd42-ae5a-4218-908c-88d51df8cb98",
+      "comment": "",
+      "command": "click",
+      "target": "id=q114:10_answer0",
+      "targets": [
+        ["id=q114:10_answer0", "id"],
+        ["name=q114:10_answer", "name"],
+        ["css=#q114\\3A 10_answer0", "css:finder"],
+        ["xpath=//input[@id='q114:10_answer0']", "xpath:attributes"],
+        ["xpath=//div[@id='question-114-10']/div[2]/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div[2]/div/fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a26fcb36-f31e-41aa-8fb4-1e840650d97c",
+      "comment": "",
+      "command": "click",
+      "target": "id=mod_quiz-next-nav",
+      "targets": [
+        ["id=mod_quiz-next-nav", "id"],
+        ["name=next", "name"],
+        ["css=#mod_quiz-next-nav", "css:finder"],
+        ["xpath=//input[@id='mod_quiz-next-nav']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_18_1_1_1715442714411_175']/div[11]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69bd6eb4-1cdb-4dcf-a930-2c9a84679424",
+      "comment": "",
+      "command": "click",
+      "target": "id=single_button663f942e384af10",
+      "targets": [
+        ["id=single_button663f942e384af10", "id"],
+        ["css=#single_button663f942e384af10", "css:finder"],
+        ["xpath=//button[@id='single_button663f942e384af10']", "xpath:attributes"],
+        ["xpath=//form[@id='frm-finishattempt']/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit all and finish')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f598848-f4e5-426e-adb1-f25e0dd85c9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer > .btn-primary",
+      "targets": [
+        ["css=.modal-footer > .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[21]", "xpath:attributes"],
+        ["xpath=//body[@id='page-mod-quiz-summary']/div[4]/div[2]/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c2c60c24-2585-4171-b84e-b0a35bd46f13",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://school.moodledemo.net/"],
+  "plugins": []
+}
