@@ -1,5 +1,5 @@
-filename
-1MiB.txt
-50MiB.txt
-100MiB.txt
-200MiB.txt
+filename,size
+1MiB.txt,1048576
+50MiB.txt,52428800
+100MiB.txt,104857600
+200MiB.txt,209715200

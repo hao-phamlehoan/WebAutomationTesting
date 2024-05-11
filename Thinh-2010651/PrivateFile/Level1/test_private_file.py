@@ -27,6 +27,15 @@ class TestPrivateFile(unittest.TestCase):
   def teardown_method(self):
     self.driver.quit()
 
+  def _file_creator(self, filename, size):
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    folder_path = os.path.join(current_dir, "test_data")
+    os.makedirs(folder_path, exist_ok=True)
+    file_path = os.path.join(folder_path, filename)
+    with open(file_path, 'wb') as f:
+        f.seek(size - 1)
+        f.write(b'1')
+
   def test_private_file(self):
     count = 0
     with open("Level1/privatefile.csv", 'r') as file:
@@ -35,6 +44,7 @@ class TestPrivateFile(unittest.TestCase):
             if count != 0:
               try:
                 self.setup()
+                self._file_creator(row[0], int(row[1]))
                 if len(self.driver.find_elements(By.XPATH, "//div[2]/a/div/div[3]"))>0:
                   self.driver.find_element(By.XPATH, "//div[2]/a/div/div[3]").click()
                   time.sleep(5)
